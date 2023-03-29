@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400&family=Lato:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.conteudo {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url("./Imagem/rider-motorbike-na-equitacao-da-estrada-se-divertindo-dirigindo-a-estrada-vazia.jpg");
+    background-size: cover;
+    width: 1280px;
+    height: 832px;
+}
+
+h2 {
+    position: absolute;
+    width: 243px;
+    height: 77px;
+    left: 995px;
+    top: 254px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+
+    position: absolute;
+    width: 474px;
+    height: 108px;
+    left: 764px;
+    top: 316px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 90px;
+    line-height: 108px;
+    text-align: right;
+    color: #FAFF00;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+
+    position: absolute;
+    width: 419px;
+    height: 154px;
+    left: 819px;
+    top: 424px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 64px;
+    line-height: 77px;
+    text-align: right;
+    color: #FFFFFF;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
+
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 15px;
+    gap: 10px;
+    position: absolute;
+    width: 113px;
+    height: 48px;
+    left: 1125px;
+    top: 591px;
+    background: #FFFFFF;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #848282;
+}
+
+p {
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: 400;
+}
